@@ -16,3 +16,6 @@ const agesFunct = ages.map(age =>
     }
 ); // function that multiply each number under 70 by 2
 console.log(agesFunct); //show result
+
+//3(a)
+const str3 = []; // array of strings
