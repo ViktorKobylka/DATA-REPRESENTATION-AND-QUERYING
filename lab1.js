@@ -33,8 +33,18 @@ const listAllTasks = () => {
         console.log(task + " has index " + index++) //prints each array item
     }); 
 };
+//3(d)
+const deleteTask = (task) => {
+    const index = str3.indexOf(task); // get index of element
+    str3.splice(index, 1); // remove element
+    console.log(task + " has been deleted"); // show the deletion
+    return str3.length; // returns the number of elements in the array after the deletion
+
+};
 
 //output
 console.log(addTask("one"));//add element and get number of elements
 console.log(addTask("two"));//add element and get number of elements
+console.log(addTask("three"));//add element and get number of elements
 listAllTasks();//show all elements
+console.log(deleteTask("one")); //remove element and get number of elements
