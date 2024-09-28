@@ -19,3 +19,14 @@ console.log(agesFunct); //show result
 
 //3(a)
 const str3 = []; // array of strings
+//3(b)
+const addTask = (task) => {
+    str3.push(task); //add an element to array
+    console.log(task + " has been added"); // show the insertion
+    return str3.length; // returns the number of elements in the array after the insertion
+
+};
+
+//output
+console.log(addTask("one"));//add element and get number of elements
+console.log(addTask("two"));//add element and get number of elements
