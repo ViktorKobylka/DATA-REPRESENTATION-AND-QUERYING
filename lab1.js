@@ -26,7 +26,15 @@ const addTask = (task) => {
     return str3.length; // returns the number of elements in the array after the insertion
 
 };
+//3(c)
+const listAllTasks = () => {
+    //iterates over all the tasks
+    str3.forEach((task, index) => {
+        console.log(task + " has index " + index++) //prints each array item
+    }); 
+};
 
 //output
 console.log(addTask("one"));//add element and get number of elements
 console.log(addTask("two"));//add element and get number of elements
+listAllTasks();//show all elements
