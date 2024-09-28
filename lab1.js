@@ -4,3 +4,6 @@ console.log(str());// show result
 //2(b)
 const str2 = a => a; // takes an argument and returns the passed variable
 console.log(str2("Data Representation & Querying")); //show result
+//2(c)
+const sum = (a, b) => a + b; //  takes two number and returns the sum of both numbers
+console.log(sum(1, 2)); //show result
